@@ -79,7 +79,6 @@
     "python.defaultInterpreterPath": "C:\\Users\\mridu\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
     "redhat.telemetry.enabled": true,
     "code-runner.clearPreviousOutput": true,
-    "livePreview.openPreviewTarget": "External Browser",
     "code-runner.runInTerminal": true,
 
     // MSYS2 MINGW64 terminal - This will now show a MSYS2 MINGW64 terminal in the list of terminal panel.
@@ -98,7 +97,6 @@
         "editor.indentSize": 4,
         "editor.insertSpaces": true
     },
-    "database-client.autoSync": true,
     "[python]": {
         "diffEditor.ignoreTrimWhitespace": false,
         "editor.formatOnType": true,
