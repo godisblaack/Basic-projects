@@ -81,15 +81,23 @@ Host github-UserName2
 	IdentityFile ~/.ssh/id_ed25519_UserName2
 ```
 
+## Example of creating and setting up a repo
+
+Creating and setting up a repository with the `UserName1` account:
+
+```sh
+git remote set-url origin git@github-UserName1:username/repo.git
+```
+
 ## Example of cloning a repo
 
-Cloning a repository with the `UserName2`account:
+Cloning a repository with the `UserName2` account:
 
 ```sh
 git clone git@github-godisblaaack:username/repo.git
 ```
 
-Cloning a repository with the `UserName1`account:
+Cloning a repository with the `UserName1` account:
 
 ```sh
 git clone git@github-UserName1:username/repo.git

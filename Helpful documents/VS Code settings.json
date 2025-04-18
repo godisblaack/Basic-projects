@@ -14,8 +14,6 @@
     "python": "python -u", 
     */
     "code-runner.executorMap": {
-
-        
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
@@ -102,5 +100,11 @@
         "editor.formatOnType": true,
         "editor.wordBasedSuggestions": "off"
     },
-    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.colorTheme": "GitHub Dark High Contrast",
+    // To remove the rectangle box highlight
+    "workbench.colorCustomizations": {
+        "[GitHub Dark High Contrast]": {
+            "editor.lineHighlightBorder": "#00000000"// fully transparent
+        }
+    }
 }
